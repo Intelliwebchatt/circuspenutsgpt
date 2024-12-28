@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Sarcastic Circus – The Greatest Show in Sarcasm. Quirky humor, bold style, and comedic chaos. Join the show!" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarcastic Circus – Clever Chaos & Bold Fun</title>
+  
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Sarcastic Circus",
+    "url": "https://www.sarcasticcircus.example",
+    "logo": "images/sarcastic-circus-logo.png",
+    "sameAs": [
+      "https://www.facebook.com/SarcasticCircus",
+      "https://www.instagram.com/SarcasticCircus"
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/sarcastic-circus-logo.png" alt="Sarcastic Circus Logo" />
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-text">
+      <h1>Welcome to the Sarcastic Circus: The Greatest Show in Sarcasm!</h1>
+      <p>Step right up for clever chaos, quirky humor, and a side of bold fun.</p>
+      <a href="#shop" class="cta-button">Join the Show</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/circus-tent-hero.png" alt="Vibrant Circus Tent with Lights" />
+    </div>
+  </section>
+
+  <!-- Key Features Section -->
+  <section id="features" class="features-section">
+    <h2>What’s in the Show?</h2>
+    <div class="feature-blocks">
+      <div class="feature-block">
+        <img src="images/feature-style.png" alt="Icon representing quirky style" />
+        <h3>Sarcastic Style</h3>
+        <p>Quirky merchandise for bold personalities.</p>
+      </div>
+      <div class="feature-block">
+        <img src="images/feature-content.png" alt="Icon representing content creation" />
+        <h3>Clever Content</h3>
+        <p>Satirical blog posts and engaging stories.</p>
+      </div>
+      <div class="feature-block">
+        <img src="images/feature-monkeys.png" alt="Icon of mischievous monkeys" />
+        <h3>Send the Monkeys</h3>
+        <p>A fun way to send sarcastic love to a friend.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>Behind the Curtain</h2>
+    <p>
+      At Sarcastic Circus, we turn life’s chaos into laughter. Born out of a love for 
+      bold ideas and clever quips, we’re here to keep things light, loud, and unapologetically fun.
+    </p>
+    <div class="founder-photo">
+      <img src="images/founder-photo.png" alt="Founder of Sarcastic Circus with a playful circus frame" />
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <h2>What They’re Saying</h2>
+    <div class="testimonials">
+      <blockquote>
+        <p>“Hilarious and bold – Sarcastic Circus nails it!”</p>
+        <cite>– Jess W.</cite>
+      </blockquote>
+      <blockquote>
+        <p>“Their merchandise is as witty as their blog!”</p>
+        <cite>– Mark T.</cite>
+      </blockquote>
+      <blockquote>
+        <p>“This is the circus I didn’t know I needed!”</p>
+        <cite>– Lisa R.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="contact-section">
+    <h2>Get in Touch</h2>
+    <form class="contact-form" action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required />
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="4" required></textarea>
+
+      <button type="submit">Send a Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="footer-links">
+      <a href="#privacy">Privacy Policy</a> | 
+      <a href="#terms">Terms of Service</a>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/SarcasticCircus" aria-label="Facebook">
+          <img src="images/icon-facebook.png" alt="Facebook Icon" />
+        </a>
+        <a href="https://www.instagram.com/SarcasticCircus" aria-label="Instagram">
+          <img src="images/icon-instagram.png" alt="Instagram Icon" />
+        </a>
+      </div>
+    </div>
+    <p class="footer-tagline">
+      Sarcastic Circus © <span id="current-year"></span> – The Greatest Show in Clever Chaos.
+    </p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
